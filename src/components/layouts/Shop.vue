@@ -68,6 +68,46 @@
               <button class="text-indigo-600 text-xs sm:text-sm hover:underline">Clear All</button>
             </div>
 
+            <!-- Special Deals Counter -->
+            <div class="mb-6 bg-gradient-to-r from-indigo-500 to-purple-600 p-4 rounded-xl text-white">
+              <h4 class="font-bold text-lg mb-2">Flash Sale Ends In:</h4>
+              <div class="grid grid-cols-3 gap-2 text-center">
+                <div class="bg-white/20 rounded-lg p-2">
+                  <span class="block text-2xl font-bold">24</span>
+                  <span class="text-xs">Hours</span>
+                </div>
+                <div class="bg-white/20 rounded-lg p-2">
+                  <span class="block text-2xl font-bold">45</span>
+                  <span class="text-xs">Mins</span>
+                </div>
+                <div class="bg-white/20 rounded-lg p-2">
+                  <span class="block text-2xl font-bold">30</span>
+                  <span class="text-xs">Secs</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Best Offers -->
+            <div class="mb-6 bg-gradient-to-br from-pink-50 to-indigo-50 p-4 rounded-xl border border-indigo-100">
+              <h4 class="font-bold text-lg mb-3">Today's Best Deals</h4>
+              <div class="space-y-3">
+                <div class="flex items-center gap-3 bg-white p-2 rounded-lg">
+                  <img src="@/assets/images/placeholder.png" class="w-12 h-12 object-cover rounded-md" alt="Product">
+                  <div>
+                    <h5 class="font-medium">Summer Dress</h5>
+                    <span class="text-indigo-600 font-bold">50% OFF</span>
+                  </div>
+                </div>
+                <div class="flex items-center gap-3 bg-white p-2 rounded-lg">
+                  <img src="@/assets/images/placeholder.png" class="w-12 h-12 object-cover rounded-md" alt="Product">
+                  <div>
+                    <h5 class="font-medium">Designer Bag</h5>
+                    <span class="text-indigo-600 font-bold">30% OFF</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- Categories -->
             <div class="space-y-4 sm:space-y-6">
               <div>

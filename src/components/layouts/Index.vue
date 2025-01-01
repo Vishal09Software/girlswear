@@ -314,6 +314,91 @@
             </div>
         </div>
 
+        <!-- Special Offers Banner -->
+        <div class="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
+            <div class="relative rounded-[2rem] overflow-hidden transform hover:scale-[1.02] transition-all duration-500">
+                <!-- Animated gradient background -->
+                <div class="absolute inset-0 bg-gradient-to-r from-violet-600 via-fuchsia-600 to-pink-600 animate-gradient-x"></div>
+                
+                <!-- Decorative elements -->
+                <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
+                <div class="absolute bottom-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
+
+                <div class="relative">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center p-8 sm:p-12 lg:p-16">
+                        <!-- Left Content -->
+                        <div class="space-y-8">
+                            <div class="flex items-center space-x-4">
+                                <span class="animate-pulse inline-flex h-3 w-3 rounded-full bg-pink-400"></span>
+                                <span class="bg-white/20 backdrop-blur-md text-white px-6 py-2 rounded-full text-sm font-medium">
+                                    Exclusive Offer
+                                </span>
+                            </div>
+
+                            <div class="space-y-4">
+                                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                                    Spring Collection
+                                    <span class="block text-pink-200">Up To 70% Off</span>
+                                </h2>
+                                <p class="text-white/90 text-lg sm:text-xl font-light leading-relaxed max-w-xl">
+                                    Elevate your style with our curated selection of premium fashion pieces. Limited time exclusive deals you won't find anywhere else.
+                                </p>
+                            </div>
+
+                            <div class="flex flex-wrap gap-4">
+                                <a href="#" class="group relative inline-flex items-center px-8 py-4 bg-white rounded-full font-semibold text-fuchsia-600 overflow-hidden">
+                                    <span class="relative z-10">Explore Collection</span>
+                                    <div class="absolute inset-0 bg-gradient-to-r from-fuchsia-600 to-pink-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+                                    <span class="group-hover:text-white relative z-10 transition-colors">
+                                        <i class="pi pi-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Right Content -->
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="space-y-6">
+                                <div class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                    <div class="text-white mb-4 group-hover:scale-110 transition-transform">
+                                        <i class="pi pi-bolt text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-white text-xl font-bold mb-2">Flash Sales</h3>
+                                    <p class="text-white/80">24-hour exclusive deals</p>
+                                </div>
+
+                                <div class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                    <div class="text-white mb-4 group-hover:scale-110 transition-transform">
+                                        <i class="pi pi-gift text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-white text-xl font-bold mb-2">VIP Rewards</h3>
+                                    <p class="text-white/80">Exclusive member perks</p>
+                                </div>
+                            </div>
+
+                            <div class="space-y-6 mt-12">
+                                <div class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                    <div class="text-white mb-4 group-hover:scale-110 transition-transform">
+                                        <i class="pi pi-ticket text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-white text-xl font-bold mb-2">Special Deals</h3>
+                                    <p class="text-white/80">Up to 70% discount</p>
+                                </div>
+
+                                <div class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                    <div class="text-white mb-4 group-hover:scale-110 transition-transform">
+                                        <i class="pi pi-send text-3xl"></i>
+                                    </div>
+                                    <h3 class="text-white text-xl font-bold mb-2">Express Delivery</h3>
+                                    <p class="text-white/80">Free on orders $150+</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Best Sellers Section with Floating Cards -->
         <div class="bg-gradient-to-b from-indigo-50/50 to-blue-50/50 py-12 sm:py-24">
             <div class="container mx-auto px-4 sm:px-6">
@@ -595,6 +680,49 @@
             </Carousel>
         </div>
 
+        <!-- Ads Section with Modern Design -->
+        <div class="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
+                <!-- Left Ad -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-xl">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 opacity-20 blur-lg group-hover:opacity-30 transition duration-500"></div>
+                    <div class="relative bg-gradient-to-br from-white to-indigo-50 p-8 sm:p-12 rounded-3xl overflow-hidden">
+                        <div class="absolute top-0 right-0 -mt-8 -mr-8">
+                            <div class="text-9xl font-bold text-indigo-100 opacity-50 transform rotate-12">
+                                %
+                            </div>
+                        </div>
+                        <span class="inline-block bg-indigo-100 text-indigo-600 px-4 py-1 rounded-full text-sm font-medium mb-4">Limited Time</span>
+                        <h3 class="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Summer Sale</h3>
+                        <p class="text-gray-600 mb-6">Get up to 50% off on selected summer collection items</p>
+                        <a href="#" class="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white transform hover:-translate-y-1 transition duration-300">
+                            <span>Shop Now</span>
+                            <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Ad -->
+                <div class="group relative overflow-hidden rounded-3xl shadow-xl">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-teal-600 opacity-20 blur-lg group-hover:opacity-30 transition duration-500"></div>
+                    <div class="relative bg-gradient-to-br from-white to-blue-50 p-8 sm:p-12 rounded-3xl overflow-hidden">
+                        <div class="absolute top-0 right-0 -mt-8 -mr-8">
+                            <div class="text-9xl font-bold text-blue-100 opacity-50 transform -rotate-12">
+                                +
+                            </div>
+                        </div>
+                        <span class="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium mb-4">New Arrival</span>
+                        <h3 class="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">Premium Collection</h3>
+                        <p class="text-gray-600 mb-6">Discover our latest premium fashion pieces</p>
+                        <a href="#" class="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-teal-600 text-white transform hover:-translate-y-1 transition duration-300">
+                            <span>Explore Now</span>
+                            <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Testimonials with Modern Design -->
         <div class="bg-gradient-to-r from-indigo-50 to-blue-50 py-12 sm:py-24">
             <div class="container mx-auto px-4 sm:px-6">
@@ -770,6 +898,73 @@
                     <Pagination class="mt-4 sm:mt-6" />
                 </template>
             </Carousel>
+        </div>
+
+        <!-- Unique Shopping Experience Section -->
+        <div class="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
+            <h2 class="text-4xl sm:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
+                Discover Your Style
+            </h2>
+            <p class="text-lg sm:text-xl text-gray-600 text-center mb-12 sm:mb-16 font-light">Explore our unique shopping experiences</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Virtual Try-On -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-indigo-50 to-blue-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
+                    <div class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-indigo-200 to-blue-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity"></div>
+                    
+                    <div class="relative">
+                        <div class="bg-white/80 backdrop-blur-sm p-3 rounded-xl inline-block mb-6">
+                            <i class="pi pi-camera text-2xl sm:text-3xl text-indigo-600"></i>
+                        </div>
+                        
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4">Virtual Try-On</h3>
+                        <p class="text-gray-600 mb-6">Experience clothes virtually before you buy with our AR technology</p>
+                        
+                        <button class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white transform group-hover:scale-105 transition duration-300">
+                            <span>Try Now</span>
+                            <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Personal Stylist -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-blue-50 to-purple-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
+                    <div class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-blue-200 to-purple-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity"></div>
+                    
+                    <div class="relative">
+                        <div class="bg-white/80 backdrop-blur-sm p-3 rounded-xl inline-block mb-6">
+                            <i class="pi pi-user text-2xl sm:text-3xl text-blue-600"></i>
+                        </div>
+                        
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4">Personal Stylist</h3>
+                        <p class="text-gray-600 mb-6">Get personalized fashion advice from our expert stylists</p>
+                        
+                        <button class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white transform group-hover:scale-105 transition duration-300">
+                            <span>Book Session</span>
+                            <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Smart Size Finder -->
+                <div class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-purple-50 to-indigo-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
+                    <div class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-purple-200 to-indigo-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity"></div>
+                    
+                    <div class="relative">
+                        <div class="bg-white/80 backdrop-blur-sm p-3 rounded-xl inline-block mb-6">
+                            <i class="pi pi-sliders-h text-2xl sm:text-3xl text-purple-600"></i>
+                        </div>
+                        
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4">Smart Size Finder</h3>
+                        <p class="text-gray-600 mb-6">Find your perfect fit with our AI-powered size recommendation tool</p>
+                        
+                        <button class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white transform group-hover:scale-105 transition duration-300">
+                            <span>Find My Size</span>
+                            <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- New Arrivals with Premium Cards -->
