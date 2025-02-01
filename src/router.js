@@ -30,8 +30,8 @@ const routes = [
     meta: { title: 'Shop' }
   },
   {
-    path: 'product_details',
-    name: 'product-details',
+    path: '/product_details',
+    name: 'Product_details',
     component: ProductDetails,
     meta: { title: 'Product Details' }
   },
@@ -42,8 +42,8 @@ const routes = [
     meta: { title: 'Blog' }
   },
   {
-    path: 'blog_details',
-    name: 'blog-details', 
+    path: '/blog_details',
+    name: 'Blog_details', 
     component: BlogDetails,
     meta: { title: 'Blog Details' }
   },
@@ -78,8 +78,8 @@ const routes = [
     meta: { title: 'My Account' }
   },
   {
-    path: 'order_details',
-    name: 'order-details',
+    path: '/order_details',
+    name: 'Order_Details',
     component: OrderDetails,
     meta: { title: 'Order Details' }
   },
