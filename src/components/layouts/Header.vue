@@ -23,11 +23,11 @@
 
           <!-- Account Links -->
           <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 w-full sm:w-auto">
-            <router-link to="/myaccount" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
+            <router-link to="/account" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
               <i class="pi pi-user-edit mr-2"></i>
               <span class="text-xs sm:text-sm">My Account</span>
             </router-link>
-            <router-link to="/track_order" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
+            <router-link to="/track-order" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
               <i class="pi pi-truck mr-2"></i>
               <span class="text-xs sm:text-sm">Track Order</span>
             </router-link>
