@@ -128,4 +128,3 @@ router.afterEach((to) => {
 });
 
 export default router; 
-proper set and fix it routes 
