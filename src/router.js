@@ -3,128 +3,131 @@ import LoginForm from './components/Auth/LoginForm.vue';
 import RegisterForm from './components/Auth/RegisterForm.vue';
 import Index from './components/layouts/Index.vue';
 import Shop from './components/layouts/Shop.vue';
-import Product_details from './components/layouts/Product_details.vue';
+import ProductDetails from './components/layouts/Product_details.vue';
 import Blog from './components/layouts/Blog.vue';
-import Blog_details from './components/layouts/Blog_details.vue';
+import BlogDetails from './components/layouts/Blog_details.vue';
 import Contact from './components/layouts/Contact.vue';
-import Wishlish from './components/layouts/Wishlish.vue';
+import Wishlist from './components/layouts/Wishlish.vue';
 import Cart from './components/layouts/Cart.vue';
 import Compare from './components/layouts/compare.vue';
-import Myaccount from './components/layouts/Myaccount.vue';
-import Order_Details from './components/layouts/Order_Details.vue';
-import Track_order from './components/layouts/Track_order.vue';
-import Forget from './components/Auth/Forget.vue';
+import MyAccount from './components/layouts/Myaccount.vue';
+import OrderDetails from './components/layouts/Order_Details.vue';
+import TrackOrder from './components/layouts/Track_order.vue';
+import ForgotPassword from './components/Auth/Forget.vue';
 import Checkout from './components/layouts/checkout.vue';
 
 const routes = [
   {
     path: '/',
-    name: 'Index',
+    name: 'home',
     component: Index,
-    meta: { title: 'Home' }, // Add meta title
+    meta: { title: 'Home' }
   },
   {
     path: '/shop',
-    name: 'Shop',
+    name: 'shop',
     component: Shop,
-    meta: { title: 'Shop' }, // Add meta title
+    meta: { title: 'Shop' }
   },
   {
-    path: '/product_details',
-    name: 'Product_details',
-    component: Product_details,
-    meta: { title: 'Product Details' }, // Add meta title
+    path: '/product/:id',
+    name: 'product-details',
+    component: ProductDetails,
+    meta: { title: 'Product Details' }
   },
   {
     path: '/blog',
-    name: 'Blog',
+    name: 'blog',
     component: Blog,
-    meta: { title: 'Blog' }, // Add meta title
+    meta: { title: 'Blog' }
   },
   {
-    path: '/blog_details',
-    name: 'Blog_details',
-    component: Blog_details,
-    meta: { title: 'Blog Details' }, // Add meta title
-  },  
+    path: '/blog/:id',
+    name: 'blog-details', 
+    component: BlogDetails,
+    meta: { title: 'Blog Details' }
+  },
   {
     path: '/contact',
-    name: 'Contact',
+    name: 'contact',
     component: Contact,
-    meta: { title: 'Contact' }, // Add meta title
+    meta: { title: 'Contact' }
   },
   {
-    path: '/wishlish',
-    name: 'Wishlish',
-    component: Wishlish,
-    meta: { title: 'Wishlish' }, // Add meta title
+    path: '/wishlist',
+    name: 'wishlist',
+    component: Wishlist,
+    meta: { title: 'Wishlist' }
   },
   {
     path: '/cart',
-    name: 'Cart',
+    name: 'cart',
     component: Cart,
-    meta: { title: 'Cart' }, // Add meta title
+    meta: { title: 'Cart' }
   },
   {
     path: '/compare',
-    name: 'Compare',
+    name: 'compare',
     component: Compare,
-    meta: { title: 'Compare' }, // Add meta title
+    meta: { title: 'Compare' }
   },
   {
-    path: '/myaccount',
-    name: 'Myaccount',
-    component: Myaccount,
-    meta: { title: 'My Account' }, // Add meta title
+    path: '/account',
+    name: 'account',
+    component: MyAccount,
+    meta: { title: 'My Account' }
   },
   {
-    path: '/order_details',
-    name: 'Order_Details',
-    component: Order_Details,
-    meta: { title: 'Order Details' }, // Add meta title
+    path: '/order/:id',
+    name: 'order-details',
+    component: OrderDetails,
+    meta: { title: 'Order Details' }
   },
   {
     path: '/checkout',
-    name: 'Checkout',
+    name: 'checkout',
     component: Checkout,
-    meta: { title: 'Checkout' }, // Add meta title
+    meta: { title: 'Checkout' }
   },
   {
     path: '/login',
-    name: 'Login',
+    name: 'login',
     component: LoginForm,
-    meta: { title: 'Login' }, // Add meta title
+    meta: { title: 'Login' }
   },
   {
-    path: '/track_order',
-    name: 'Track_order',
-    component: Track_order,
-    meta: { title: 'Track Order' }, // Add meta title
+    path: '/track-order',
+    name: 'track-order',
+    component: TrackOrder,
+    meta: { title: 'Track Order' }
   },
   {
     path: '/register',
-    name: 'Register',
+    name: 'register',
     component: RegisterForm,
-    meta: { title: 'Register' }, // Add meta title
+    meta: { title: 'Register' }
   },
   {
-    path: '/forget',
-    name: 'Forget',
-    component: Forget,
-    meta: { title: 'Forget' }, // Add meta title
-  },
+    path: '/forgot-password',
+    name: 'forgot-password',
+    component: ForgotPassword,
+    meta: { title: 'Forgot Password' }
+  }
 ];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
-});
-
-// Update document title based on the route's meta title
-router.afterEach((to) => {
-  if (to.meta.title) {
-    document.title = to.meta.title;
+  scrollBehavior() {
+    // Always scroll to top
+    return { top: 0 }
   }
 });
 
-export default router; 
+router.beforeEach((to, from, next) => {
+  // Update document title
+  document.title = to.meta.title || 'Default Title';
+  next();
+});
+
+export default router;
