@@ -30,7 +30,7 @@ const routes = [
     meta: { title: 'Shop' }
   },
   {
-    path: 'product-details',
+    path: 'product_details',
     name: 'product-details',
     component: ProductDetails,
     meta: { title: 'Product Details' }
@@ -42,7 +42,7 @@ const routes = [
     meta: { title: 'Blog' }
   },
   {
-    path: 'blog-details',
+    path: 'blog_details',
     name: 'blog-details', 
     component: BlogDetails,
     meta: { title: 'Blog Details' }
@@ -78,7 +78,7 @@ const routes = [
     meta: { title: 'My Account' }
   },
   {
-    path: 'order-details',
+    path: 'order_details',
     name: 'order-details',
     component: OrderDetails,
     meta: { title: 'Order Details' }
