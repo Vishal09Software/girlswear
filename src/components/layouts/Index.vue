@@ -85,7 +85,8 @@
                     <div
                         class="relative bg-gradient-to-r from-indigo-50 via-purple-50 to-blue-50 h-[500px] sm:h-[600px] md:h-[650px] lg:h-[750px] transition-all duration-500 ease-in-out">
                         <div class="container mx-auto px-4 sm:px-6 py-8 sm:py-12 md:py-16 lg:py-20">
-                            <div class="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 lg:gap-12">
+                            <div
+                                class="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 lg:gap-12">
                                 <div class="lg:w-1/2 text-center lg:text-left">
                                     <h1
                                         class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-playfair font-bold text-gray-900 mb-4 sm:mb-6 lg:mb-8 animate-fade-in leading-tight">
@@ -159,7 +160,9 @@
                 class="text-4xl sm:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
                 Shop by Category
             </h2>
-            <p class="text-lg sm:text-xl text-gray-600 text-center mb-12 sm:mb-16 font-light">Explore our carefully curated collections</p>
+            <p class="text-lg sm:text-xl text-gray-600 text-center mb-12 sm:mb-16 font-light">Explore our carefully
+                curated
+                collections</p>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 sm:gap-6">
                 <div
@@ -316,13 +319,20 @@
 
         <!-- Special Offers Banner -->
         <div class="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
-            <div class="relative rounded-[2rem] overflow-hidden transform hover:scale-[1.02] transition-all duration-500">
+            <div
+                class="relative rounded-[2rem] overflow-hidden transform hover:scale-[1.02] transition-all duration-500">
                 <!-- Animated gradient background -->
-                <div class="absolute inset-0 bg-gradient-to-r from-violet-600 via-fuchsia-600 to-pink-600 animate-gradient-x"></div>
-                
+                <div
+                    class="absolute inset-0 bg-gradient-to-r from-violet-600 via-fuchsia-600 to-pink-600 animate-gradient-x">
+                </div>
+
                 <!-- Decorative elements -->
-                <div class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
-                <div class="absolute bottom-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
+                <div
+                    class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2">
+                </div>
+                <div
+                    class="absolute bottom-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2">
+                </div>
 
                 <div class="relative">
                     <div class="grid lg:grid-cols-2 gap-12 items-center p-8 sm:p-12 lg:p-16">
@@ -330,7 +340,8 @@
                         <div class="space-y-8">
                             <div class="flex items-center space-x-4">
                                 <span class="animate-pulse inline-flex h-3 w-3 rounded-full bg-pink-400"></span>
-                                <span class="bg-white/20 backdrop-blur-md text-white px-6 py-2 rounded-full text-sm font-medium">
+                                <span
+                                    class="bg-white/20 backdrop-blur-md text-white px-6 py-2 rounded-full text-sm font-medium">
                                     Exclusive Offer
                                 </span>
                             </div>
@@ -341,16 +352,22 @@
                                     <span class="block text-pink-200">Up To 70% Off</span>
                                 </h2>
                                 <p class="text-white/90 text-lg sm:text-xl font-light leading-relaxed max-w-xl">
-                                    Elevate your style with our curated selection of premium fashion pieces. Limited time exclusive deals you won't find anywhere else.
+                                    Elevate your style with our curated selection of premium fashion pieces. Limited
+                                    time
+                                    exclusive deals you won't find anywhere else.
                                 </p>
                             </div>
 
                             <div class="flex flex-wrap gap-4">
-                                <a href="#" class="group relative inline-flex items-center px-8 py-4 bg-white rounded-full font-semibold text-fuchsia-600 overflow-hidden">
+                                <a href="#"
+                                    class="group relative inline-flex items-center px-8 py-4 bg-white rounded-full font-semibold text-fuchsia-600 overflow-hidden">
                                     <span class="relative z-10">Explore Collection</span>
-                                    <div class="absolute inset-0 bg-gradient-to-r from-fuchsia-600 to-pink-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+                                    <div
+                                        class="absolute inset-0 bg-gradient-to-r from-fuchsia-600 to-pink-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left">
+                                    </div>
                                     <span class="group-hover:text-white relative z-10 transition-colors">
-                                        <i class="pi pi-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+                                        <i
+                                            class="pi pi-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
                                     </span>
                                 </a>
                             </div>
@@ -359,7 +376,8 @@
                         <!-- Right Content -->
                         <div class="grid grid-cols-2 gap-6">
                             <div class="space-y-6">
-                                <div class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                <div
+                                    class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
                                     <div class="text-white mb-4 group-hover:scale-110 transition-transform">
                                         <i class="pi pi-bolt text-3xl"></i>
                                     </div>
@@ -367,7 +385,8 @@
                                     <p class="text-white/80">24-hour exclusive deals</p>
                                 </div>
 
-                                <div class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                <div
+                                    class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
                                     <div class="text-white mb-4 group-hover:scale-110 transition-transform">
                                         <i class="pi pi-gift text-3xl"></i>
                                     </div>
@@ -377,7 +396,8 @@
                             </div>
 
                             <div class="space-y-6 mt-12">
-                                <div class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                <div
+                                    class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
                                     <div class="text-white mb-4 group-hover:scale-110 transition-transform">
                                         <i class="pi pi-ticket text-3xl"></i>
                                     </div>
@@ -385,7 +405,8 @@
                                     <p class="text-white/80">Up to 70% discount</p>
                                 </div>
 
-                                <div class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                <div
+                                    class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
                                     <div class="text-white mb-4 group-hover:scale-110 transition-transform">
                                         <i class="pi pi-send text-3xl"></i>
                                     </div>
@@ -406,7 +427,9 @@
                     class="text-3xl sm:text-4xl lg:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
                     Trending Now
                 </h2>
-                <p class="text-lg sm:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Discover our most coveted pieces</p>
+                <p class="text-lg sm:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Discover our most
+                    coveted
+                    pieces</p>
 
                 <Carousel :items-to-show="1.2" :breakpoints="{
                     640: {
@@ -495,9 +518,11 @@
                             <div
                                 class="group relative bg-white rounded-2xl sm:rounded-3xl shadow-lg hover:shadow-2xl overflow-hidden transform hover:scale-102 transition-all duration-500">
                                 <div class="relative">
-                                    <img :src="product.image" :alt="product.name" class="w-full h-48 sm:h-64 lg:h-80 object-cover">
+                                    <img :src="product.image" :alt="product.name"
+                                        class="w-full h-48 sm:h-64 lg:h-80 object-cover">
                                     <div class="absolute top-2 sm:top-4 left-2 sm:left-4">
-                                        <span class="bg-indigo-600 text-white px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm">New
+                                        <span
+                                            class="bg-indigo-600 text-white px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm">New
                                             Arrival</span>
                                     </div>
                                     <div class="absolute top-2 sm:top-4 right-2 sm:right-4 flex gap-1 sm:gap-2">
@@ -517,16 +542,20 @@
                                     <div class="flex items-center mb-2">
                                         <div class="flex text-yellow-400">
                                             <i class="pi pi-star-fill text-xs sm:text-sm"></i>
-                                            <span class="ml-1 text-xs sm:text-sm font-medium">{{ product.rating }}</span>
+                                            <span class="ml-1 text-xs sm:text-sm font-medium">{{ product.rating
+                                                }}</span>
                                         </div>
                                         <span class="mx-2 text-gray-400">•</span>
-                                        <span class="text-xs sm:text-sm text-gray-600">{{ product.reviews }} reviews</span>
+                                        <span class="text-xs sm:text-sm text-gray-600">{{ product.reviews }}
+                                            reviews</span>
                                     </div>
                                     <h3
                                         class="text-base sm:text-xl font-bold text-gray-900 mb-2 hover:text-indigo-600 transition-colors truncate">
                                         {{ product.name }}</h3>
-                                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 sm:gap-0">
-                                        <span class="text-lg sm:text-2xl font-bold text-indigo-600">{{ product.price }}</span>
+                                    <div
+                                        class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 sm:gap-0">
+                                        <span class="text-lg sm:text-2xl font-bold text-indigo-600">{{ product.price
+                                            }}</span>
                                         <button
                                             class="flex items-center justify-center bg-indigo-600 text-white w-full sm:w-auto px-4 sm:px-6 py-2 sm:py-2.5 rounded-full hover:bg-indigo-700 transition-colors duration-300 text-sm sm:text-base">
                                             <i class="pi pi-shopping-bag mr-2"></i>
@@ -551,7 +580,9 @@
             <h2
                 class="text-3xl sm:text-4xl lg:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
                 Featured Collection</h2>
-            <p class="text-lg sm:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Discover our exclusive curated selection</p>
+            <p class="text-lg sm:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Discover our exclusive
+                curated
+                selection</p>
 
             <Carousel :items-to-show="1.2" :breakpoints="{
                 640: {
@@ -560,8 +591,8 @@
                 1024: {
                     itemsToShow: 3
                 }
-            }" :wrap-around="true" :autoplay="4000" :transition="600" :mouseDrag="true"
-                :touchDrag="true" class="featured-carousel">
+            }" :wrap-around="true" :autoplay="4000" :transition="600" :mouseDrag="true" :touchDrag="true"
+                class="featured-carousel">
                 <Slide v-for="(product, index) in [
                     {
                         image: 'src/assets/images/placeholder.png',
@@ -652,7 +683,8 @@
                                     <h3
                                         class="text-base sm:text-xl font-semibold group-hover:text-indigo-600 transition duration-300">
                                         {{ product.name }}</h3>
-                                    <span class="bg-indigo-100 text-indigo-600 px-2 sm:px-3 py-1 rounded-md sm:rounded-lg text-xs sm:text-sm">New</span>
+                                    <span
+                                        class="bg-indigo-100 text-indigo-600 px-2 sm:px-3 py-1 rounded-md sm:rounded-lg text-xs sm:text-sm">New</span>
                                 </div>
                                 <p class="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4">{{ product.description }}</p>
                                 <div class="flex justify-between items-center">
@@ -685,17 +717,25 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
                 <!-- Left Ad -->
                 <div class="group relative overflow-hidden rounded-3xl shadow-xl">
-                    <div class="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 opacity-20 blur-lg group-hover:opacity-30 transition duration-500"></div>
-                    <div class="relative bg-gradient-to-br from-white to-indigo-50 p-8 sm:p-12 rounded-3xl overflow-hidden">
+                    <div
+                        class="absolute -inset-1 bg-gradient-to-r from-pink-600 to-purple-600 opacity-20 blur-lg group-hover:opacity-30 transition duration-500">
+                    </div>
+                    <div
+                        class="relative bg-gradient-to-br from-white to-indigo-50 p-8 sm:p-12 rounded-3xl overflow-hidden">
                         <div class="absolute top-0 right-0 -mt-8 -mr-8">
                             <div class="text-9xl font-bold text-indigo-100 opacity-50 transform rotate-12">
                                 %
                             </div>
                         </div>
-                        <span class="inline-block bg-indigo-100 text-indigo-600 px-4 py-1 rounded-full text-sm font-medium mb-4">Limited Time</span>
-                        <h3 class="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">Summer Sale</h3>
+                        <span
+                            class="inline-block bg-indigo-100 text-indigo-600 px-4 py-1 rounded-full text-sm font-medium mb-4">Limited
+                            Time</span>
+                        <h3
+                            class="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
+                            Summer Sale</h3>
                         <p class="text-gray-600 mb-6">Get up to 50% off on selected summer collection items</p>
-                        <a href="#" class="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white transform hover:-translate-y-1 transition duration-300">
+                        <a href="#"
+                            class="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white transform hover:-translate-y-1 transition duration-300">
                             <span>Shop Now</span>
                             <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                         </a>
@@ -704,17 +744,25 @@
 
                 <!-- Right Ad -->
                 <div class="group relative overflow-hidden rounded-3xl shadow-xl">
-                    <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-teal-600 opacity-20 blur-lg group-hover:opacity-30 transition duration-500"></div>
-                    <div class="relative bg-gradient-to-br from-white to-blue-50 p-8 sm:p-12 rounded-3xl overflow-hidden">
+                    <div
+                        class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-teal-600 opacity-20 blur-lg group-hover:opacity-30 transition duration-500">
+                    </div>
+                    <div
+                        class="relative bg-gradient-to-br from-white to-blue-50 p-8 sm:p-12 rounded-3xl overflow-hidden">
                         <div class="absolute top-0 right-0 -mt-8 -mr-8">
                             <div class="text-9xl font-bold text-blue-100 opacity-50 transform -rotate-12">
                                 +
                             </div>
                         </div>
-                        <span class="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium mb-4">New Arrival</span>
-                        <h3 class="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">Premium Collection</h3>
+                        <span
+                            class="inline-block bg-blue-100 text-blue-600 px-4 py-1 rounded-full text-sm font-medium mb-4">New
+                            Arrival</span>
+                        <h3
+                            class="text-3xl sm:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-600">
+                            Premium Collection</h3>
                         <p class="text-gray-600 mb-6">Discover our latest premium fashion pieces</p>
-                        <a href="#" class="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-teal-600 text-white transform hover:-translate-y-1 transition duration-300">
+                        <a href="#"
+                            class="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-teal-600 text-white transform hover:-translate-y-1 transition duration-300">
                             <span>Explore Now</span>
                             <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                         </a>
@@ -729,7 +777,8 @@
                 <h2
                     class="text-3xl sm:text-4xl lg:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
                     Customer Stories</h2>
-                <p class="text-lg sm:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Hear from our satisfied customers</p>
+                <p class="text-lg sm:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Hear from our satisfied
+                    customers</p>
                 <Carousel :items-to-show="1" :breakpoints="{
                     640: {
                         itemsToShow: 2
@@ -737,8 +786,7 @@
                     1024: {
                         itemsToShow: 3
                     }
-                }" :wrap-around="true" :autoplay="5000" :transition="800" :mouseDrag="true"
-                    :touchDrag="true">
+                }" :wrap-around="true" :autoplay="5000" :transition="800" :mouseDrag="true" :touchDrag="true">
                     <Slide v-for="(testimonial, index) in [
                         {
                             name: 'Emma Thompson',
@@ -818,7 +866,8 @@
             <h2
                 class="text-3xl sm:text-4xl lg:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
                 Style Journal</h2>
-            <p class="text-base sm:text-lg lg:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Insights and inspiration from the world of
+            <p class="text-base sm:text-lg lg:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Insights and
+                inspiration from the world of
                 fashion</p>
             <Carousel :items-to-show="1.2" :breakpoints="{
                 640: {
@@ -827,8 +876,7 @@
                 1024: {
                     itemsToShow: 3
                 }
-            }" :wrap-around="true" :autoplay="3000" :transition="500" :mouseDrag="true"
-                :touchDrag="true">
+            }" :wrap-around="true" :autoplay="3000" :transition="500" :mouseDrag="true" :touchDrag="true">
                 <Slide v-for="(blog, index) in [
                     {
                         category: 'Accessories',
@@ -881,7 +929,8 @@
                                             blog.title }}</h3>
                                     <p class="text-gray-600 text-xs sm:text-sm mb-3 sm:mb-4">{{ blog.description }}</p>
                                 </div>
-                                <a href="#" class="inline-flex items-center text-amber-600 hover:text-amber-700 text-sm sm:text-base">
+                                <a href="#"
+                                    class="inline-flex items-center text-amber-600 hover:text-amber-700 text-sm sm:text-base">
                                     View Article <i
                                         class="pi pi-arrow-right ml-2 group-hover:translate-x-2 transition-transform"></i>
                                 </a>
@@ -902,25 +951,33 @@
 
         <!-- Unique Shopping Experience Section -->
         <div class="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
-            <h2 class="text-4xl sm:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
+            <h2
+                class="text-4xl sm:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
                 Discover Your Style
             </h2>
-            <p class="text-lg sm:text-xl text-gray-600 text-center mb-12 sm:mb-16 font-light">Explore our unique shopping experiences</p>
+            <p class="text-lg sm:text-xl text-gray-600 text-center mb-12 sm:mb-16 font-light">Explore our unique
+                shopping
+                experiences</p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
                 <!-- Virtual Try-On -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-indigo-50 to-blue-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
-                    <div class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-indigo-200 to-blue-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity"></div>
-                    
+                <div
+                    class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-indigo-50 to-blue-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
+                    <div
+                        class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-indigo-200 to-blue-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity">
+                    </div>
+
                     <div class="relative">
                         <div class="bg-white/80 backdrop-blur-sm p-3 rounded-xl inline-block mb-6">
                             <i class="pi pi-camera text-2xl sm:text-3xl text-indigo-600"></i>
                         </div>
-                        
+
                         <h3 class="text-xl sm:text-2xl font-bold mb-4">Virtual Try-On</h3>
-                        <p class="text-gray-600 mb-6">Experience clothes virtually before you buy with our AR technology</p>
-                        
-                        <button class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white transform group-hover:scale-105 transition duration-300">
+                        <p class="text-gray-600 mb-6">Experience clothes virtually before you buy with our AR technology
+                        </p>
+
+                        <button
+                            class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-indigo-600 to-blue-600 text-white transform group-hover:scale-105 transition duration-300">
                             <span>Try Now</span>
                             <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                         </button>
@@ -928,18 +985,22 @@
                 </div>
 
                 <!-- Personal Stylist -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-blue-50 to-purple-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
-                    <div class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-blue-200 to-purple-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity"></div>
-                    
+                <div
+                    class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-blue-50 to-purple-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
+                    <div
+                        class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-blue-200 to-purple-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity">
+                    </div>
+
                     <div class="relative">
                         <div class="bg-white/80 backdrop-blur-sm p-3 rounded-xl inline-block mb-6">
                             <i class="pi pi-user text-2xl sm:text-3xl text-blue-600"></i>
                         </div>
-                        
+
                         <h3 class="text-xl sm:text-2xl font-bold mb-4">Personal Stylist</h3>
                         <p class="text-gray-600 mb-6">Get personalized fashion advice from our expert stylists</p>
-                        
-                        <button class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white transform group-hover:scale-105 transition duration-300">
+
+                        <button
+                            class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 text-white transform group-hover:scale-105 transition duration-300">
                             <span>Book Session</span>
                             <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                         </button>
@@ -947,18 +1008,23 @@
                 </div>
 
                 <!-- Smart Size Finder -->
-                <div class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-purple-50 to-indigo-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
-                    <div class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-purple-200 to-indigo-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity"></div>
-                    
+                <div
+                    class="group relative overflow-hidden rounded-2xl shadow-xl bg-gradient-to-br from-purple-50 to-indigo-50 p-6 sm:p-8 transform hover:-translate-y-2 transition-all duration-500">
+                    <div
+                        class="absolute top-0 right-0 -mt-8 -mr-8 w-32 h-32 bg-gradient-to-br from-purple-200 to-indigo-200 rounded-full blur-2xl opacity-70 group-hover:opacity-100 transition-opacity">
+                    </div>
+
                     <div class="relative">
                         <div class="bg-white/80 backdrop-blur-sm p-3 rounded-xl inline-block mb-6">
                             <i class="pi pi-sliders-h text-2xl sm:text-3xl text-purple-600"></i>
                         </div>
-                        
+
                         <h3 class="text-xl sm:text-2xl font-bold mb-4">Smart Size Finder</h3>
-                        <p class="text-gray-600 mb-6">Find your perfect fit with our AI-powered size recommendation tool</p>
-                        
-                        <button class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white transform group-hover:scale-105 transition duration-300">
+                        <p class="text-gray-600 mb-6">Find your perfect fit with our AI-powered size recommendation tool
+                        </p>
+
+                        <button
+                            class="inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white transform group-hover:scale-105 transition duration-300">
                             <span>Find My Size</span>
                             <i class="pi pi-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
                         </button>
@@ -973,7 +1039,9 @@
                 <h2
                     class="text-3xl sm:text-4xl lg:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
                     Latest Arrivals</h2>
-                <p class="text-base sm:text-lg lg:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Be the first to discover our newest
+                <p class="text-base sm:text-lg lg:text-xl text-gray-600 text-center mb-8 sm:mb-16 font-light">Be the
+                    first to
+                    discover our newest
                     collections
                 </p>
 
@@ -987,8 +1055,7 @@
                     1280: {
                         itemsToShow: 4
                     }
-                }" :wrap-around="true" :autoplay="3000" :transition="500" :mouseDrag="true"
-                    :touchDrag="true">
+                }" :wrap-around="true" :autoplay="3000" :transition="500" :mouseDrag="true" :touchDrag="true">
                     <Slide v-for="(product, index) in [
                         {
                             image: 'src/assets/images/placeholder.png',
@@ -1085,7 +1152,8 @@
                                     </div>
                                     <div
                                         class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-4 sm:p-6 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
-                                        <h3 class="text-base sm:text-xl font-semibold text-white mb-2">{{ product.name }}</h3>
+                                        <h3 class="text-base sm:text-xl font-semibold text-white mb-2">{{ product.name
+                                            }}</h3>
                                         <div class="flex justify-between items-center">
                                             <p class="text-lg sm:text-xl font-bold text-white">{{ product.price }}</p>
                                             <div class="flex text-amber-400 text-xs sm:text-sm">
@@ -1127,7 +1195,9 @@
                     <h2
                         class="text-3xl sm:text-4xl lg:text-5xl font-playfair font-bold text-center mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-600">
                         Stay in Style</h2>
-                    <p class="text-base sm:text-lg lg:text-xl text-gray-600 text-center mb-6 sm:mb-10 font-light">Subscribe to our newsletter for
+                    <p class="text-base sm:text-lg lg:text-xl text-gray-600 text-center mb-6 sm:mb-10 font-light">
+                        Subscribe to
+                        our newsletter for
                         exclusive offers and style updates</p>
                     <div class="max-w-2xl mx-auto">
                         <form class="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -1139,7 +1209,9 @@
                                 Subscribe
                             </button>
                         </form>
-                        <p class="text-xs sm:text-sm text-gray-500 text-center mt-3 sm:mt-4">By subscribing, you agree to our Privacy
+                        <p class="text-xs sm:text-sm text-gray-500 text-center mt-3 sm:mt-4">By subscribing, you agree
+                            to our
+                            Privacy
                             Policy</p>
                     </div>
                 </div>

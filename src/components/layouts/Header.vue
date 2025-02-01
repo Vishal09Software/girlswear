@@ -23,14 +23,14 @@
 
           <!-- Account Links -->
           <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 w-full sm:w-auto">
-            <a href="/myaccount" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
+            <router-link to="/myaccount" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
               <i class="pi pi-user-edit mr-2"></i>
               <span class="text-xs sm:text-sm">My Account</span>
-            </a>
-            <a href="/track_order" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
+            </router-link>
+            <router-link to="/track_order" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
               <i class="pi pi-truck mr-2"></i>
               <span class="text-xs sm:text-sm">Track Order</span>
-            </a>
+            </router-link>
             <router-link to="/login" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
               <i class="pi pi-user mr-2"></i>
               <span class="text-xs sm:text-sm">Login</span>
@@ -59,27 +59,27 @@
           <div class="hidden lg:flex space-x-8">
             <!-- New Arrivals -->
             <div class="relative group">
-              <a href="#" class="text-gray-700 hover:text-indigo-600 font-medium py-2 flex items-center">
+              <router-link to="/new-arrivals" class="text-gray-700 hover:text-indigo-600 font-medium py-2 flex items-center">
                 <i class="pi pi-star-fill mr-2"></i>
                 New Arrivals
                 <i class="pi pi-chevron-down ml-2 text-sm"></i>
-              </a>
+              </router-link>
               <div class="absolute top-full -left-1/2 w-[800px] bg-white shadow-xl rounded-lg p-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                 <div class="grid grid-cols-4 gap-6">
                   <div>
                     <h3 class="font-semibold text-indigo-600 mb-4">Latest Collections</h3>
                     <ul class="space-y-2">
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-sun mr-2"></i>Summer Collection</a></li>
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-cloud mr-2"></i>Spring Collection</a></li>
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-moon mr-2"></i>Winter Collection</a></li>
+                      <li><router-link to="/shop" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-sun mr-2"></i>Summer Collection</router-link></li>
+                      <li><router-link to="/shop" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-cloud mr-2"></i>Spring Collection</router-link></li>
+                      <li><router-link to="/shop" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-moon mr-2"></i>Winter Collection</router-link></li>
                     </ul>
                   </div>
                   <div>
                     <h3 class="font-semibold text-indigo-600 mb-4">Trending Now</h3>
                     <ul class="space-y-2">
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-bolt mr-2"></i>Hot Picks</a></li>
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-heart-fill mr-2"></i>Most Loved</a></li>
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-star-fill mr-2"></i>Best Sellers</a></li>
+                      <li><router-link to="/shop" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-bolt mr-2"></i>Hot Picks</router-link></li>
+                      <li><router-link to="/shop" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-heart-fill mr-2"></i>Most Loved</router-link></li>
+                      <li><router-link to="/shop" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-star-fill mr-2"></i>Best Sellers</router-link></li>
                     </ul>
                   </div>
                   <div class="col-span-2">
@@ -91,27 +91,27 @@
 
             <!-- Shop -->
             <div class="relative group">
-              <a href="#" class="text-gray-700 hover:text-indigo-600 font-medium py-2 flex items-center">
+              <router-link to="/shop" class="text-gray-700 hover:text-indigo-600 font-medium py-2 flex items-center">
                 <i class="pi pi-shopping-bag mr-2"></i>
                 Shop
                 <i class="pi pi-chevron-down ml-2 text-sm"></i>
-              </a>
+              </router-link>
               <div class="absolute top-full -left-1/2 w-[800px] bg-white shadow-xl rounded-lg p-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                 <div class="grid grid-cols-4 gap-6">
                   <div>
                     <h3 class="font-semibold text-indigo-600 mb-4">Categories</h3>
                     <ul class="space-y-2">
                       <li><router-link to="/shop" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-tag mr-2"></i>All Products</router-link></li>
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-star mr-2"></i>Featured Items</a></li>
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-percentage mr-2"></i>Sale Items</a></li>
+                      <li><router-link to="/featured" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-star mr-2"></i>Featured Items</router-link></li>
+                      <li><router-link to="/sale" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-percentage mr-2"></i>Sale Items</router-link></li>
                     </ul>
                   </div>
                   <div>
                     <h3 class="font-semibold text-indigo-600 mb-4">Collections</h3>
                     <ul class="space-y-2">
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-box mr-2"></i>Summer 2023</a></li>
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-box mr-2"></i>Winter 2023</a></li>
-                      <li><a href="#" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-box mr-2"></i>Limited Edition</a></li>
+                      <li><router-link to="/summer-2023" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-box mr-2"></i>Summer 2023</router-link></li>
+                      <li><router-link to="/winter-2023" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-box mr-2"></i>Winter 2023</router-link></li>
+                      <li><router-link to="/limited-edition" class="text-gray-600 hover:text-indigo-600 flex items-center"><i class="pi pi-box mr-2"></i>Limited Edition</router-link></li>
                     </ul>
                   </div>
                   <div class="col-span-2">
@@ -123,18 +123,18 @@
 
             <!-- Blog -->
             <div class="relative group">
-              <a href="/blog" class="text-gray-700 hover:text-indigo-600 font-medium py-2 flex items-center">
+              <router-link to="/blog" class="text-gray-700 hover:text-indigo-600 font-medium py-2 flex items-center">
                 <i class="pi pi-book mr-2"></i>
                 Blog
-              </a>
+              </router-link>
             </div>
 
             <!-- Contact -->
             <div class="relative group">
-              <a href="/contact" class="text-gray-700 hover:text-indigo-600 font-medium py-2 flex items-center">
+              <router-link to="/contact" class="text-gray-700 hover:text-indigo-600 font-medium py-2 flex items-center">
                 <i class="pi pi-envelope mr-2"></i>
                 Contact
-              </a>
+              </router-link>
             </div>
           </div>
 
@@ -147,20 +147,20 @@
             
             <div class="flex space-x-4 sm:space-x-6">
 
-              <a href="/compare" class="relative text-gray-600 hover:text-indigo-600 transition duration-300">
+              <router-link to="/compare" class="relative text-gray-600 hover:text-indigo-600 transition duration-300">
                 <i class="pi pi-sync text-xl sm:text-2xl"></i>
                 <span class="absolute -top-2 -right-2 bg-indigo-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs animate-pulse">0</span>
-              </a>
+              </router-link>
 
-              <a href="/wishlish" class="relative text-gray-600 hover:text-indigo-600 transition duration-300">
+              <router-link to="/wishlist" class="relative text-gray-600 hover:text-indigo-600 transition duration-300">
                 <i class="pi pi-heart-fill text-xl sm:text-2xl"></i>
                 <span class="absolute -top-2 -right-2 bg-indigo-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs animate-pulse">0</span>
-              </a>
+              </router-link>
               
-              <a href="/cart" class="relative text-gray-600 hover:text-indigo-600 transition duration-300">
+              <router-link to="/cart" class="relative text-gray-600 hover:text-indigo-600 transition duration-300">
                 <i class="pi pi-shopping-cart text-xl sm:text-2xl"></i>
                 <span class="absolute -top-2 -right-2 bg-indigo-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs animate-pulse">0</span>
-              </a>
+              </router-link>
             </div>
 
             <!-- Mobile Menu Button -->
@@ -201,9 +201,9 @@
                 <i :class="{'pi-chevron-down': !showNewArrivals, 'pi-chevron-up': showNewArrivals}" class="pi"></i>
               </button>
               <div v-show="showNewArrivals" class="pl-4 mt-2 space-y-2">
-                <a href="#" class="block text-gray-600 hover:text-indigo-600">Summer Collection</a>
-                <a href="#" class="block text-gray-600 hover:text-indigo-600">Spring Collection</a>
-                <a href="#" class="block text-gray-600 hover:text-indigo-600">Winter Collection</a>
+                <router-link to="/summer-collection" class="block text-gray-600 hover:text-indigo-600">Summer Collection</router-link>
+                <router-link to="/spring-collection" class="block text-gray-600 hover:text-indigo-600">Spring Collection</router-link>
+                <router-link to="/winter-collection" class="block text-gray-600 hover:text-indigo-600">Winter Collection</router-link>
               </div>
             </div>
 
@@ -217,20 +217,20 @@
               </button>
               <div v-show="showShop" class="pl-4 mt-2 space-y-2">
                 <router-link to="/shop" class="block text-gray-600 hover:text-indigo-600">All Products</router-link>
-                <a href="#" class="block text-gray-600 hover:text-indigo-600">Featured Items</a>
-                <a href="#" class="block text-gray-600 hover:text-indigo-600">Sale Items</a>
+                <router-link to="/featured" class="block text-gray-600 hover:text-indigo-600">Featured Items</router-link>
+                <router-link to="/sale" class="block text-gray-600 hover:text-indigo-600">Sale Items</router-link>
               </div>
             </div>
 
-            <a href="/blog" class="flex items-center text-gray-700 hover:text-indigo-600 py-2">
+            <router-link to="/blog" class="flex items-center text-gray-700 hover:text-indigo-600 py-2">
               <i class="pi pi-book mr-2"></i>
               Blog
-            </a>
+            </router-link>
 
-            <a href="/contact" class="flex items-center text-gray-700 hover:text-indigo-600 py-2">
+            <router-link to="/contact" class="flex items-center text-gray-700 hover:text-indigo-600 py-2">
               <i class="pi pi-envelope mr-2"></i>
               Contact
-            </a>
+            </router-link>
           </nav>
         </div>
       </div>
