@@ -127,4 +127,5 @@ router.afterEach((to) => {
   }
 });
 
-export default router;
+export default router; 
+proper set and fix it routes 
