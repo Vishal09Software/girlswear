@@ -1175,21 +1175,21 @@ export default {
                     title: 'Discover Your',
                     highlight: 'Signature Style',
                     description: 'Curated collections that blend timeless elegance with contemporary fashion trends.',
-                    image: '/assets/images/placeholder.png',
+                    image: '@/assets/images/placeholder.png',
                     imageAlt: 'Fashion Collection'
                 },
                 {
                     title: 'Elevate Your',
                     highlight: 'Wardrobe',
                     description: 'Premium designer pieces carefully selected for the modern fashionista.',
-                    image: '/assets/images/placeholder.png',
+                    image: '@/assets/images/placeholder.png',
                     imageAlt: 'Premium Fashion'
                 },
                 {
                     title: 'Express Your',
                     highlight: 'Unique Style',
                     description: 'Discover the latest trends and make them uniquely yours with our exclusive collection.',
-                    image: '/assets/images/placeholder.png',
+                    image: '@/assets/images/placeholder.png',
                     imageAlt: 'Trendy Fashion'
                 }
             ]
