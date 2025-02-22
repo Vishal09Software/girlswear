@@ -5,24 +5,24 @@
       <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-indigo-600"></div>
     </div>
 
-    <!-- Top Bar -->
-    <div class="bg-indigo-100 py-2">
+    <!-- Top Bar - Hidden on Mobile -->
+    <div class="hidden sm:block bg-indigo-100 py-2">
       <div class="container mx-auto px-4">
-        <div class="flex flex-col sm:flex-row justify-between items-center text-sm">
+        <div class="flex justify-between items-center text-sm">
           <!-- Contact Info -->
-          <div class="flex flex-col sm:flex-row items-center sm:items-start space-y-2 sm:space-y-0 sm:space-x-6 mb-2 sm:mb-0 w-full sm:w-auto">
-            <a href="tel:+1234567890" class="flex items-center justify-center text-gray-700 hover:text-indigo-600 transition duration-300 w-full sm:w-auto">
+          <div class="flex items-center space-x-6">
+            <a href="tel:+1234567890" class="flex items-center text-gray-700 hover:text-indigo-600 transition duration-300">
               <i class="pi pi-phone mr-2"></i>
-              <span class="text-xs sm:text-sm">+1 (234) 567-890</span>
+              <span>+1 (234) 567-890</span>
             </a>
-            <a href="mailto:info@girlswear.com" class="flex items-center justify-center text-gray-700 hover:text-indigo-600 transition duration-300 w-full sm:w-auto">
+            <a href="mailto:info@girlswear.com" class="flex items-center text-gray-700 hover:text-indigo-600 transition duration-300">
               <i class="pi pi-envelope mr-2"></i>
-              <span class="text-xs sm:text-sm">info@girlswear.com</span>
+              <span>info@girlswear.com</span>
             </a>
           </div>
 
           <!-- Account Links -->
-          <div class="hidden sm:flex items-center space-x-6">
+          <div class="flex items-center space-x-6">
             <router-link to="/account" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center">
               <i class="pi pi-user-edit mr-2"></i>
               <span class="text-sm">My Account</span>
@@ -174,43 +174,12 @@
       <div :class="{'translate-x-0': isMobileMenuOpen, '-translate-x-full': !isMobileMenuOpen}" 
            class="fixed top-0 left-0 h-full w-80 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out lg:hidden z-50 overflow-y-auto">
         <div class="p-4">
+          <!-- Header -->
           <div class="flex justify-between items-center mb-8">
             <router-link to="/" class="text-2xl font-bold text-indigo-600">GirlsWear</router-link>
             <button @click="toggleMobileMenu" class="text-gray-600">
               <i class="pi pi-times text-xl"></i>
             </button>
-          </div>
-
-          <!-- Contact Info for Mobile -->
-          <div class="mb-6 space-y-3 border-b border-gray-200 pb-4">
-            <a href="tel:+1234567890" class="flex items-center text-gray-700">
-              <i class="pi pi-phone mr-3 text-indigo-600"></i>
-              <span>+1 (234) 567-890</span>
-            </a>
-            <a href="mailto:info@girlswear.com" class="flex items-center text-gray-700">
-              <i class="pi pi-envelope mr-3 text-indigo-600"></i>
-              <span>info@girlswear.com</span>
-            </a>
-          </div>
-
-          <!-- Mobile Account Links -->
-          <div class="mb-6 space-y-3 border-b border-gray-200 pb-4">
-            <router-link to="/account" class="flex items-center text-gray-700">
-              <i class="pi pi-user-edit mr-3 text-indigo-600"></i>
-              <span>My Account</span>
-            </router-link>
-            <router-link to="/track-order" class="flex items-center text-gray-700">
-              <i class="pi pi-truck mr-3 text-indigo-600"></i>
-              <span>Track Order</span>
-            </router-link>
-            <router-link to="/login" class="flex items-center text-gray-700">
-              <i class="pi pi-user mr-3 text-indigo-600"></i>
-              <span>Login</span>
-            </router-link>
-            <router-link to="/register" class="flex items-center text-gray-700">
-              <i class="pi pi-user-plus mr-3 text-indigo-600"></i>
-              <span>Register</span>
-            </router-link>
           </div>
 
           <!-- Mobile Search -->
@@ -222,7 +191,7 @@
           </div>
 
           <!-- Mobile Navigation Links -->
-          <nav class="space-y-4">
+          <nav class="space-y-4 mb-6">
             <div>
               <button @click="toggleNewArrivals" class="w-full flex items-center justify-between text-gray-700 hover:text-indigo-600 py-2">
                 <span class="flex items-center">
@@ -263,6 +232,59 @@
               Contact
             </router-link>
           </nav>
+
+          <!-- Bottom Section -->
+          <div class="border-t border-gray-200 pt-6 space-y-6">
+            <!-- Contact Info -->
+            <div class="space-y-3">
+              <h3 class="font-semibold text-gray-800 mb-2">Contact Us</h3>
+              <a href="tel:+1234567890" class="flex items-center text-gray-700">
+                <i class="pi pi-phone mr-3 text-indigo-600"></i>
+                <span>+1 (234) 567-890</span>
+              </a>
+              <a href="mailto:info@girlswear.com" class="flex items-center text-gray-700">
+                <i class="pi pi-envelope mr-3 text-indigo-600"></i>
+                <span>info@girlswear.com</span>
+              </a>
+            </div>
+
+            <!-- Account Links -->
+            <div class="space-y-3">
+              <h3 class="font-semibold text-gray-800 mb-2">My Account</h3>
+              <router-link to="/account" class="flex items-center text-gray-700">
+                <i class="pi pi-user-edit mr-3 text-indigo-600"></i>
+                <span>My Account</span>
+              </router-link>
+              <router-link to="/track-order" class="flex items-center text-gray-700">
+                <i class="pi pi-truck mr-3 text-indigo-600"></i>
+                <span>Track Order</span>
+              </router-link>
+              <router-link to="/login" class="flex items-center text-gray-700">
+                <i class="pi pi-user mr-3 text-indigo-600"></i>
+                <span>Login</span>
+              </router-link>
+              <router-link to="/register" class="flex items-center text-gray-700">
+                <i class="pi pi-user-plus mr-3 text-indigo-600"></i>
+                <span>Register</span>
+              </router-link>
+            </div>
+
+            <!-- Social Links -->
+            <div class="space-y-3">
+              <h3 class="font-semibold text-gray-800 mb-2">Follow Us</h3>
+              <div class="flex space-x-4">
+                <a href="#" class="text-gray-600 hover:text-indigo-600">
+                  <i class="pi pi-facebook text-xl"></i>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-indigo-600">
+                  <i class="pi pi-twitter text-xl"></i>
+                </a>
+                <a href="#" class="text-gray-600 hover:text-indigo-600">
+                  <i class="pi pi-instagram text-xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 

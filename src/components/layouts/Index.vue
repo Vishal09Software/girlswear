@@ -318,100 +318,87 @@
         </div>
 
         <!-- Special Offers Banner -->
-        <div class="container mx-auto px-4 sm:px-6 py-16 sm:py-24">
-            <div
-                class="relative rounded-[2rem] overflow-hidden transform hover:scale-[1.02] transition-all duration-500">
+        <div class="container mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-24">
+            <div class="relative rounded-xl sm:rounded-2xl lg:rounded-[2rem] overflow-hidden transform hover:scale-[1.02] transition-all duration-500">
                 <!-- Animated gradient background -->
-                <div
-                    class="absolute inset-0 bg-gradient-to-r from-violet-600 via-fuchsia-600 to-pink-600 animate-gradient-x">
+                <div class="absolute inset-0 bg-gradient-to-r from-violet-600 via-fuchsia-600 to-pink-600 animate-gradient-x">
                 </div>
 
                 <!-- Decorative elements -->
-                <div
-                    class="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2">
+                <div class="absolute top-0 right-0 w-32 sm:w-48 lg:w-64 h-32 sm:h-48 lg:h-64 bg-white/10 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2">
                 </div>
-                <div
-                    class="absolute bottom-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2">
+                <div class="absolute bottom-0 left-0 w-48 sm:w-64 lg:w-96 h-48 sm:h-64 lg:h-96 bg-white/10 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2">
                 </div>
 
                 <div class="relative">
-                    <div class="grid lg:grid-cols-2 gap-12 items-center p-8 sm:p-12 lg:p-16">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center p-6 sm:p-8 lg:p-16">
                         <!-- Left Content -->
-                        <div class="space-y-8">
+                        <div class="space-y-6 sm:space-y-8">
                             <div class="flex items-center space-x-4">
-                                <span class="animate-pulse inline-flex h-3 w-3 rounded-full bg-pink-400"></span>
-                                <span
-                                    class="bg-white/20 backdrop-blur-md text-white px-6 py-2 rounded-full text-sm font-medium">
+                                <span class="animate-pulse inline-flex h-2 sm:h-3 w-2 sm:w-3 rounded-full bg-pink-400"></span>
+                                <span class="bg-white/20 backdrop-blur-md text-white px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-medium">
                                     Exclusive Offer
                                 </span>
                             </div>
 
-                            <div class="space-y-4">
-                                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                            <div class="space-y-3 sm:space-y-4">
+                                <h2 class="text-3xl sm:text-4xl lg:text-6xl font-bold text-white leading-tight">
                                     Spring Collection
                                     <span class="block text-pink-200">Up To 70% Off</span>
                                 </h2>
-                                <p class="text-white/90 text-lg sm:text-xl font-light leading-relaxed max-w-xl">
-                                    Elevate your style with our curated selection of premium fashion pieces. Limited
-                                    time
+                                <p class="text-white/90 text-base sm:text-lg lg:text-xl font-light leading-relaxed max-w-xl">
+                                    Elevate your style with our curated selection of premium fashion pieces. Limited time
                                     exclusive deals you won't find anywhere else.
                                 </p>
                             </div>
 
                             <div class="flex flex-wrap gap-4">
-                                <a href="#"
-                                    class="group relative inline-flex items-center px-8 py-4 bg-white rounded-full font-semibold text-fuchsia-600 overflow-hidden">
+                                <a href="#" class="group relative inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-white rounded-full text-sm sm:text-base font-semibold text-fuchsia-600 overflow-hidden">
                                     <span class="relative z-10">Explore Collection</span>
-                                    <div
-                                        class="absolute inset-0 bg-gradient-to-r from-fuchsia-600 to-pink-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left">
+                                    <div class="absolute inset-0 bg-gradient-to-r from-fuchsia-600 to-pink-600 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left">
                                     </div>
                                     <span class="group-hover:text-white relative z-10 transition-colors">
-                                        <i
-                                            class="pi pi-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
+                                        <i class="pi pi-arrow-right ml-2 transform group-hover:translate-x-1 transition-transform"></i>
                                     </span>
                                 </a>
                             </div>
                         </div>
 
                         <!-- Right Content -->
-                        <div class="grid grid-cols-2 gap-6">
-                            <div class="space-y-6">
-                                <div
-                                    class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
-                                    <div class="text-white mb-4 group-hover:scale-110 transition-transform">
-                                        <i class="pi pi-bolt text-3xl"></i>
+                        <div class="grid grid-cols-2 gap-4 sm:gap-6 mt-8 lg:mt-0">
+                            <div class="space-y-4 sm:space-y-6">
+                                <div class="group bg-white/10 backdrop-blur-lg p-4 sm:p-6 rounded-xl sm:rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                    <div class="text-white mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                                        <i class="pi pi-bolt text-2xl sm:text-3xl"></i>
                                     </div>
-                                    <h3 class="text-white text-xl font-bold mb-2">Flash Sales</h3>
-                                    <p class="text-white/80">24-hour exclusive deals</p>
+                                    <h3 class="text-white text-lg sm:text-xl font-bold mb-1 sm:mb-2">Flash Sales</h3>
+                                    <p class="text-white/80 text-sm sm:text-base">24-hour exclusive deals</p>
                                 </div>
 
-                                <div
-                                    class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
-                                    <div class="text-white mb-4 group-hover:scale-110 transition-transform">
-                                        <i class="pi pi-gift text-3xl"></i>
+                                <div class="group bg-white/10 backdrop-blur-lg p-4 sm:p-6 rounded-xl sm:rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                    <div class="text-white mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                                        <i class="pi pi-gift text-2xl sm:text-3xl"></i>
                                     </div>
-                                    <h3 class="text-white text-xl font-bold mb-2">VIP Rewards</h3>
-                                    <p class="text-white/80">Exclusive member perks</p>
+                                    <h3 class="text-white text-lg sm:text-xl font-bold mb-1 sm:mb-2">VIP Rewards</h3>
+                                    <p class="text-white/80 text-sm sm:text-base">Exclusive member perks</p>
                                 </div>
                             </div>
 
-                            <div class="space-y-6 mt-12">
-                                <div
-                                    class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
-                                    <div class="text-white mb-4 group-hover:scale-110 transition-transform">
-                                        <i class="pi pi-ticket text-3xl"></i>
+                            <div class="space-y-4 sm:space-y-6 mt-4 sm:mt-8 lg:mt-12">
+                                <div class="group bg-white/10 backdrop-blur-lg p-4 sm:p-6 rounded-xl sm:rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                    <div class="text-white mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                                        <i class="pi pi-ticket text-2xl sm:text-3xl"></i>
                                     </div>
-                                    <h3 class="text-white text-xl font-bold mb-2">Special Deals</h3>
-                                    <p class="text-white/80">Up to 70% discount</p>
+                                    <h3 class="text-white text-lg sm:text-xl font-bold mb-1 sm:mb-2">Special Deals</h3>
+                                    <p class="text-white/80 text-sm sm:text-base">Up to 70% discount</p>
                                 </div>
 
-                                <div
-                                    class="group bg-white/10 backdrop-blur-lg p-6 rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
-                                    <div class="text-white mb-4 group-hover:scale-110 transition-transform">
-                                        <i class="pi pi-send text-3xl"></i>
+                                <div class="group bg-white/10 backdrop-blur-lg p-4 sm:p-6 rounded-xl sm:rounded-2xl transform hover:-translate-y-2 transition-all duration-300">
+                                    <div class="text-white mb-3 sm:mb-4 group-hover:scale-110 transition-transform">
+                                        <i class="pi pi-send text-2xl sm:text-3xl"></i>
                                     </div>
-                                    <h3 class="text-white text-xl font-bold mb-2">Express Delivery</h3>
-                                    <p class="text-white/80">Free on orders $150+</p>
+                                    <h3 class="text-white text-lg sm:text-xl font-bold mb-1 sm:mb-2">Express Delivery</h3>
+                                    <p class="text-white/80 text-sm sm:text-base">Free on orders $150+</p>
                                 </div>
                             </div>
                         </div>
