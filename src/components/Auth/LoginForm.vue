@@ -4,24 +4,23 @@
         <Header />
 
         <!-- Main Content -->
-        <div class="flex-grow flex items-center justify-center py-12">
-            <div class="w-full max-w-5xl bg-white rounded-lg shadow-xl flex overflow-hidden">
+        <div class="flex-grow flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+            <div class="w-full max-w-5xl bg-white rounded-lg shadow-xl flex flex-col md:flex-row overflow-hidden">
                 <!-- Image Section -->
-                <div class="relative w-1/2">
-                        <img src="https://raw.githubusercontent.com/minimal-ui-kit/material-kit-react/main/public/assets/illustrations/illustration_register.png"
-                            alt="Fashion" class="w-full h-full object-cover" />
-                        <div
-                            class="absolute inset-0 bg-gradient-to-r from-blue-600/60 to-purple-600/60 flex flex-col justify-center px-12">
-                            <h1 class="text-4xl font-bold text-white mb-4">Welcome to GirlsWear</h1>
-                            <p class="text-white/90 text-lg">Join our fashion community and discover the latest trends
-                                in women's fashion.</p>
-                        </div>
+                <div class="relative w-full md:w-1/2">
+                    <img src="https://raw.githubusercontent.com/minimal-ui-kit/material-kit-react/main/public/assets/illustrations/illustration_register.png"
+                        alt="Fashion" class="w-full h-64 md:h-full object-cover" />
+                    <div class="absolute inset-0 bg-gradient-to-r from-blue-600/60 to-purple-600/60 flex flex-col justify-center p-6 md:px-12">
+                        <h1 class="text-2xl md:text-4xl font-bold text-white mb-2 md:mb-4">Welcome to GirlsWear</h1>
+                        <p class="text-white/90 text-base md:text-lg">Join our fashion community and discover the latest trends
+                            in women's fashion.</p>
                     </div>
+                </div>
 
                 <!-- Form Section -->
-                <div class="w-1/2 p-12">
-                    <h2 class="text-3xl font-bold mb-8 text-gray-800">Welcome Back</h2>
-                    <form @submit.prevent="handleLogin" class="space-y-6">
+                <div class="w-full md:w-1/2 p-6 md:p-12">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-6 md:mb-8 text-gray-800">Welcome Back</h2>
+                    <form @submit.prevent="handleLogin" class="space-y-4 md:space-y-6">
                         <div class="space-y-2">
                             <label class="block text-sm font-semibold text-gray-700" for="email">Email</label>
                             <div class="relative group">
@@ -35,7 +34,7 @@
                             </div>
                         </div>
                         <div class="space-y-2">
-                            <div class="flex justify-between items-center">
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1">
                                 <label class="block text-sm font-semibold text-gray-700" for="password">Password</label>
                                 <router-link to="/forget" class="text-sm text-blue-500 hover:text-blue-600 hover:underline">
                                     Forgot Password?
@@ -64,9 +63,9 @@
                             class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-3 rounded-lg font-semibold hover:from-blue-600 hover:to-purple-700 transform hover:scale-[1.02] transition-all duration-200 shadow-md">
                             Sign In
                         </button>
-                        <p class="text-center text-gray-600">
+                        <p class="text-center text-gray-600 text-sm sm:text-base">
                             Don't have an account? 
-                            <router-link :to="{name: 'Register'}" class="text-blue-500 hover:text-blue-600 hover:underline transition-colors duration-200">
+                            <router-link :to="{name: 'register'}" class="text-blue-500 hover:text-blue-600 hover:underline transition-colors duration-200">
                                 Create Account
                             </router-link>
                         </p>

@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import LoginForm from './components/Auth/LoginForm.vue';
 import RegisterForm from './components/Auth/RegisterForm.vue';
+import ForgotPassword from './components/Auth/Forget.vue';
+
+
 import Index from './components/layouts/Index.vue';
 import Shop from './components/layouts/Shop.vue';
 import ProductDetails from './components/layouts/Product_details.vue';
@@ -13,8 +16,8 @@ import Compare from './components/layouts/compare.vue';
 import MyAccount from './components/layouts/Myaccount.vue';
 import OrderDetails from './components/layouts/Order_Details.vue';
 import TrackOrder from './components/layouts/Track_order.vue';
-import ForgotPassword from './components/Auth/Forget.vue';
 import Checkout from './components/layouts/checkout.vue';
+
 
 const routes = [
   {
