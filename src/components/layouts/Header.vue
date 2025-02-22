@@ -22,22 +22,22 @@
           </div>
 
           <!-- Account Links -->
-          <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6 w-full sm:w-auto">
-            <router-link to="/account" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
+          <div class="hidden sm:flex items-center space-x-6">
+            <router-link to="/account" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center">
               <i class="pi pi-user-edit mr-2"></i>
-              <span class="text-xs sm:text-sm">My Account</span>
+              <span class="text-sm">My Account</span>
             </router-link>
-            <router-link to="/track-order" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
+            <router-link to="/track-order" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center">
               <i class="pi pi-truck mr-2"></i>
-              <span class="text-xs sm:text-sm">Track Order</span>
+              <span class="text-sm">Track Order</span>
             </router-link>
-            <router-link to="/login" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
+            <router-link to="/login" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center">
               <i class="pi pi-user mr-2"></i>
-              <span class="text-xs sm:text-sm">Login</span>
+              <span class="text-sm">Login</span>
             </router-link>
-            <router-link to="/register" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center justify-center w-full sm:w-auto">
+            <router-link to="/register" class="text-gray-700 hover:text-indigo-600 transition duration-300 flex items-center">
               <i class="pi pi-user-plus mr-2"></i>
-              <span class="text-xs sm:text-sm">Register</span>
+              <span class="text-sm">Register</span>
             </router-link>
           </div>
         </div>
@@ -146,7 +146,6 @@
             </div>
             
             <div class="flex space-x-4 sm:space-x-6">
-
               <router-link to="/compare" class="relative text-gray-600 hover:text-indigo-600 transition duration-300">
                 <i class="pi pi-sync text-xl sm:text-2xl"></i>
                 <span class="absolute -top-2 -right-2 bg-indigo-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs animate-pulse">0</span>
@@ -173,13 +172,45 @@
 
       <!-- Mobile Sidebar -->
       <div :class="{'translate-x-0': isMobileMenuOpen, '-translate-x-full': !isMobileMenuOpen}" 
-           class="fixed top-0 left-0 h-full w-64 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out lg:hidden z-50">
+           class="fixed top-0 left-0 h-full w-80 bg-white shadow-2xl transform transition-transform duration-300 ease-in-out lg:hidden z-50 overflow-y-auto">
         <div class="p-4">
           <div class="flex justify-between items-center mb-8">
             <router-link to="/" class="text-2xl font-bold text-indigo-600">GirlsWear</router-link>
             <button @click="toggleMobileMenu" class="text-gray-600">
               <i class="pi pi-times text-xl"></i>
             </button>
+          </div>
+
+          <!-- Contact Info for Mobile -->
+          <div class="mb-6 space-y-3 border-b border-gray-200 pb-4">
+            <a href="tel:+1234567890" class="flex items-center text-gray-700">
+              <i class="pi pi-phone mr-3 text-indigo-600"></i>
+              <span>+1 (234) 567-890</span>
+            </a>
+            <a href="mailto:info@girlswear.com" class="flex items-center text-gray-700">
+              <i class="pi pi-envelope mr-3 text-indigo-600"></i>
+              <span>info@girlswear.com</span>
+            </a>
+          </div>
+
+          <!-- Mobile Account Links -->
+          <div class="mb-6 space-y-3 border-b border-gray-200 pb-4">
+            <router-link to="/account" class="flex items-center text-gray-700">
+              <i class="pi pi-user-edit mr-3 text-indigo-600"></i>
+              <span>My Account</span>
+            </router-link>
+            <router-link to="/track-order" class="flex items-center text-gray-700">
+              <i class="pi pi-truck mr-3 text-indigo-600"></i>
+              <span>Track Order</span>
+            </router-link>
+            <router-link to="/login" class="flex items-center text-gray-700">
+              <i class="pi pi-user mr-3 text-indigo-600"></i>
+              <span>Login</span>
+            </router-link>
+            <router-link to="/register" class="flex items-center text-gray-700">
+              <i class="pi pi-user-plus mr-3 text-indigo-600"></i>
+              <span>Register</span>
+            </router-link>
           </div>
 
           <!-- Mobile Search -->
@@ -201,9 +232,9 @@
                 <i :class="{'pi-chevron-down': !showNewArrivals, 'pi-chevron-up': showNewArrivals}" class="pi"></i>
               </button>
               <div v-show="showNewArrivals" class="pl-4 mt-2 space-y-2">
-                <router-link to="/summer-collection" class="block text-gray-600 hover:text-indigo-600">Summer Collection</router-link>
-                <router-link to="/spring-collection" class="block text-gray-600 hover:text-indigo-600">Spring Collection</router-link>
-                <router-link to="/winter-collection" class="block text-gray-600 hover:text-indigo-600">Winter Collection</router-link>
+                <router-link to="/summer-collection" class="block text-gray-600 hover:text-indigo-600 py-2">Summer Collection</router-link>
+                <router-link to="/spring-collection" class="block text-gray-600 hover:text-indigo-600 py-2">Spring Collection</router-link>
+                <router-link to="/winter-collection" class="block text-gray-600 hover:text-indigo-600 py-2">Winter Collection</router-link>
               </div>
             </div>
 
@@ -216,9 +247,9 @@
                 <i :class="{'pi-chevron-down': !showShop, 'pi-chevron-up': showShop}" class="pi"></i>
               </button>
               <div v-show="showShop" class="pl-4 mt-2 space-y-2">
-                <router-link to="/shop" class="block text-gray-600 hover:text-indigo-600">All Products</router-link>
-                <router-link to="/featured" class="block text-gray-600 hover:text-indigo-600">Featured Items</router-link>
-                <router-link to="/sale" class="block text-gray-600 hover:text-indigo-600">Sale Items</router-link>
+                <router-link to="/shop" class="block text-gray-600 hover:text-indigo-600 py-2">All Products</router-link>
+                <router-link to="/featured" class="block text-gray-600 hover:text-indigo-600 py-2">Featured Items</router-link>
+                <router-link to="/sale" class="block text-gray-600 hover:text-indigo-600 py-2">Sale Items</router-link>
               </div>
             </div>
 
