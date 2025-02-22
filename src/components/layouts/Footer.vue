@@ -2,7 +2,7 @@
   <footer class="bg-indigo-900 text-white">
     <div class="max-w-7xl mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
       <!-- Main Footer Content -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
         
         <!-- About Section -->
         <div class="text-center sm:text-left">
@@ -49,22 +49,6 @@
           </ul>
         </div>
 
-        <!-- Newsletter -->
-        <div class="text-center sm:text-left">
-          <h4 class="text-base sm:text-lg font-semibold mb-3 sm:mb-4 text-indigo-400">Stay Updated</h4>
-          <p class="text-sm sm:text-base text-gray-300 mb-3 sm:mb-4">Subscribe to our newsletter for updates and exclusive offers!</p>
-          <div class="flex flex-col space-y-2 sm:space-y-0 sm:flex-row sm:space-x-2">
-            <input 
-              type="email" 
-              placeholder="Enter your email" 
-              class="px-3 sm:px-4 py-2 text-sm sm:text-base rounded-md sm:rounded-l-md sm:rounded-r-none w-full focus:outline-none focus:ring-2 focus:ring-indigo-400 text-gray-900"
-            >
-            <button class="bg-indigo-500 px-4 sm:px-6 py-2 text-sm sm:text-base rounded-md sm:rounded-l-none sm:rounded-r-md hover:bg-indigo-600 transition duration-300 flex items-center justify-center whitespace-nowrap" @click="openChat('newsletter')">
-              <i class="pi pi-send mr-2"></i>
-              Join
-            </button>
-          </div>
-        </div>
       </div>
 
       <!-- Bottom Footer -->
