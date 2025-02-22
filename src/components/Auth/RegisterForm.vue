@@ -66,6 +66,19 @@
                                     </button>
                                 </div>
                             </div>
+                            <div class="space-y-1 sm:space-y-2">
+                                <label class="block text-sm font-medium text-gray-700" for="confirmPassword">Confirm Password</label>
+                                <div class="relative">
+                                    <i class="pi pi-lock absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"></i>
+                                    <input :type="showPassword ? 'text' : 'password'" id="confirmPassword" v-model="confirmPassword"
+                                        class="w-full px-3 py-2 sm:px-4 sm:py-2.5 pl-10 pr-10 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200 bg-white/50 text-sm sm:text-base"
+                                        placeholder="Confirm your password" />
+                                    <button type="button" @click.prevent="togglePassword"
+                                        class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600">
+                                        <i :class="showPassword ? 'pi pi-eye-slash' : 'pi pi-eye'"></i>
+                                    </button>
+                                </div>
+                            </div>
 
                             <button type="submit"
                                 class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white py-2.5 sm:py-3 rounded-xl font-semibold hover:from-blue-600 hover:to-purple-700 transform hover:scale-[1.02] transition-all duration-200 shadow-lg flex items-center justify-center gap-2 text-sm sm:text-base mt-2">
