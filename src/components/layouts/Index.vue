@@ -1234,7 +1234,7 @@ export default {
                     title: 'Discover Your',
                     highlight: 'Signature Style',
                     description: 'Curated collections that blend timeless elegance with contemporary fashion trends.',
-                    image: 'src/assets/images/placeholder.png',
+                    image: '@/src/assets/images/placeholder.png',
                     imageAlt: 'Fashion Collection'
                 },
                 {
