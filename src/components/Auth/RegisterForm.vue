@@ -9,7 +9,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2">
                     <!-- Image Section - Hidden on mobile -->
                     <div class="relative hidden lg:block">
-                        <img src="https://raw.githubusercontent.com/minimal-ui-kit/material-kit-react/main/public/assets/illustrations/illustration_register.png"
+                        <img src="@/assets/images/placeholder.png"
                             alt="Fashion" class="w-full h-full object-cover" />
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-blue-600/60 to-purple-600/60 flex flex-col justify-center px-6 lg:px-12">
